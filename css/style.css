@@ -1,0 +1,206 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Navbar */
+
+.transparent {
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.navbar-toggler-icon {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(202, 134, 32);
+    ;
+}
+
+.nav-links,
+.navbar-brand {
+    color: rgb(202, 134, 32) !important;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.nav-links {
+    padding: 20px;
+}
+
+.navbar a:hover {
+    color: whitesmoke
+}
+
+
+/* Navbar */
+
+header {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.384) url(../img/1.jpg) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-center {
+    height: 100vh;
+    color: rgb(246, 250, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-underline {
+    width: 300px;
+    border: 3px solid rgb(202, 134, 32);
+    margin: 0px auto 20px auto;
+}
+
+.banner-center a {
+    font-size: 30px;
+    width: 300px;
+    margin: 0px auto;
+    display: inline-block;
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.banner-center a:hover,
+.banner a:focus {
+    color: rgb(202, 134, 32);
+    background-color: whitesmoke;
+}
+
+
+/*title*/
+
+.title {
+    margin: 20px 0;
+}
+
+.title-underline {
+    width: 150px;
+    border: 3px solid rgb(202, 134, 32);
+    margin: 0px auto 10px auto;
+}
+
+
+/*title*/
+
+
+/*skills section*/
+
+#skills {
+    padding: 40px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: 100px;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+    margin-bottom: 10px;
+}
+
+#skills a {
+    margin-bottom: 20px;
+    background-color: rgb(170, 169, 172);
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+#skills a:hover {
+    background-color: rgb(217, 215, 219);
+    color: rgb(202, 134, 32);
+}
+
+
+/*About */
+
+#about {
+    background-color: rgb(255, 255, 255);
+}
+
+#about .pic {
+    height: 600px;
+    background: url(../img/4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid rgb(255, 255, 255);
+    ;
+}
+
+#about .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*end about*/
+
+
+/*contact section*/
+
+#contact {
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+#contact .form-control {
+    border-radius: 0 !important;
+    font-size: 20px;
+}
+
+#contact button {
+    background-color: rgb(170, 169, 172);
+    color: whitesmoke;
+    font-size: 24px;
+    margin: 20px;
+}
+
+#contact button:hover {
+    background-color: rgb(217, 215, 219);
+    color: rgb(202, 134, 32);
+}
+
+
+/*footer section*/
+
+#footer {
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    background-color: #353531;
+}
+
+#footer .title-underline {
+    margin-bottom: 40px;
+}
+
+#footer .footer-icons {
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+#footer .footer-icons a {
+    color: rgb(185, 178, 185);
+    text-decoration: none;
+}
+
+#footer .footer-icons a:hover {
+    color: rgb(202, 134, 32);
+}
+
+#footer .copyrights h3 {
+    padding: 40px 0;
+    color: rgb(254, 255, 255)
+}
